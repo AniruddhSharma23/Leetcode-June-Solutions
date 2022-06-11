@@ -1,6 +1,7 @@
 class Solution
 {
 public:
+    
     int minOperations(vector<int> &nums, int x)
     {
         int s = accumulate(nums.begin(), nums.end(), 0); // total sum of the array
